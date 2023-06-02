@@ -1,0 +1,6 @@
+NODE yellow_tripdata_2018_01_pipe_2466_0
+SQL >
+
+    SELECT count() FROM yellow_tripdata_2018_01
+
+
