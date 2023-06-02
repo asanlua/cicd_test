@@ -1,0 +1,6 @@
+NODE untitled_pipe_7829_0
+SQL >
+
+    SELECT dense_rank()
+
+
