@@ -1,0 +1,8 @@
+- no_negative_passengers:
+    max_bytes_read: null
+    max_time: null
+    sql: |
+        select toStartOfYear(tpep_pickup_datetime) time, count()
+        from yellow_tripdata_2018_01
+        where passenger_count < 0
+        group by time
